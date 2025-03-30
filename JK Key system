@@ -6,8 +6,8 @@ local player = Players.LocalPlayer
 
 -- List of valid keys
 local validKeys = {
-    ["111"] = "https://raw.githubusercontent.com/AnthuhubX/Blue-lock-styles/refs/heads/main/JKOBFUSCATED.lua",
-    ["Soulshub"] = "https://raw.githubusercontent.com/AnthuhubX/Blue-lock-styles/refs/heads/main/JKOBFUSCATED.lua"
+    ["JK"] = "https://raw.githubusercontent.com/AnthuhubX/Blue-lock-styles/refs/heads/main/JKOBFUSCATED.lua",
+    ["JKRELEASED"] = "https://raw.githubusercontent.com/AnthuhubX/Blue-lock-styles/refs/heads/main/JKOBFUSCATED.lua"
 }
 
 -- Create ScreenGui
