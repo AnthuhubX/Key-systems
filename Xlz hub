@@ -7,7 +7,7 @@ local player = Players.LocalPlayer
 -- List of valid keys
 local validKeys = {
     ["Xlz"] = "https://pastefy.app/6WPaC8I3/raw",
-    ["Xlz"] = "https://pastefy.app/6WPaC8I3/raw"
+    ["Xlz1"] = "https://pastefy.app/6WPaC8I3/raw"
 }
 
 -- Create ScreenGui
