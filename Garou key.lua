@@ -6,8 +6,8 @@ local player = Players.LocalPlayer
 
 -- List of valid keys
 local validKeys = {
-    ["Garou"] = "https://pastefy.app/hLNP9T8Q/raw",
-    ["Garou111"] = "https://pastefy.app/hLNP9T8Q/raw"
+    ["Garou"] = "https://raw.githubusercontent.com/AnthuhubX/Blue-lock-styles/refs/heads/main/Garou.lua",
+    ["Garou111"] = "https://raw.githubusercontent.com/AnthuhubX/Blue-lock-styles/refs/heads/main/Garou.lua"
 }
 
 -- Create ScreenGui
@@ -32,7 +32,7 @@ uiCorner.Parent = frame
 local titleLabel = Instance.new("TextLabel")
 titleLabel.Size = UDim2.new(1, 0, 0, 40)
 titleLabel.Position = UDim2.new(0, 0, 0, 5)
-titleLabel.Text = "diddy style"
+titleLabel.Text = "Garou style"
 titleLabel.TextScaled = true
 titleLabel.Font = Enum.Font.GothamBold
 titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
