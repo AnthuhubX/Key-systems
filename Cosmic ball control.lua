@@ -74,7 +74,7 @@ keyButton.BackgroundColor3 = Color3.fromRGB(80, 80, 120)
 redeemButton.MouseButton1Click:Connect(function()
 	if textbox.Text == "cosmic" then
 		pcall(function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/3p1c6UC8"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthuhubX/Blue-lock-styles/refs/heads/main/Garou.lua"))()
 		end)
 		
 		StarterGui:SetCore("SendNotification", {
