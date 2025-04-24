@@ -96,7 +96,7 @@ end
 end)
 
 keyButton.MouseButton1Click:Connect(function()
-setclipboard("https://discord.gg/J2UDrzTy3d")
+setclipboard("https://discord.gg/VmnHQKp8Ud")
 StarterGui:SetCore("SendNotification", {
 Title = "Copied!",
 Text = "Key link copied to clipboard.",
