@@ -7,7 +7,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 
 -- GUI Setup
 local screenGui = Instance.new("ScreenGui", playerGui)
-screenGui.Name = "KeySystem"
+screenGui.Name = "KeySystem Soulshub"
 
 local frame = Instance.new("Frame", screenGui)
 frame.Position = UDim2.new(0.3, 0, 0.3, 0)
@@ -72,7 +72,7 @@ keyButton.BackgroundColor3 = Color3.fromRGB(80, 80, 120)
 
 -- Button Functions
 redeemButton.MouseButton1Click:Connect(function()
-if textbox.Text == "cosmic" then
+if textbox.Text == "Soulshub" then
 pcall(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthuhubX/Obfuscateds/refs/heads/main/Ball%20control.lua"))()
 end)
@@ -96,7 +96,7 @@ end
 end)
 
 keyButton.MouseButton1Click:Connect(function()
-setclipboard("https://discord.gg/VmnHQKp8Ud")
+setclipboard("https://discord.gg/d4qp58pBQG")
 StarterGui:SetCore("SendNotification", {
 Title = "Copied!",
 Text = "Key link copied to clipboard.",
